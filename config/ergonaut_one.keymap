@@ -26,19 +26,19 @@
 
         default_layer {
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E      &kp R         &kp T        &kp Y      &kp U       &kp I             &kp O              &kp P     &kp BACKSPACE
-&mo 1           &kp A  &kp S  &kp D      &kp F         &kp G        &kp H      &kp J       &kp K             &kp L              &kp SEMI  &kp APOS
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V         &kp B        &kp N      &kp M       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp FSLH  &kp ENTER
-                              &kp LCTRL  &kp LEFT_ALT  &lt LWR RET  &kp COMMA  &kp PERIOD  &none
+&kp ESC         &kp Q  &kp W  &kp E      &kp R         &kp T      &kp Y      &kp U       &kp I             &kp O              &kp P     &kp BACKSPACE
+&mo 1           &kp A  &kp S  &kp D      &kp F         &kp G      &kp H      &kp J       &kp K             &kp L              &kp SEMI  &kp APOS
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V         &kp B      &kp N      &kp M       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp FSLH  &kp ENTER
+                              &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &kp COMMA  &kp PERIOD  &mo 2
             >;
         };
 
         lower_layer {
             bindings = <
-&mt LGUI F1     &kp F2  &kp F3  &kp ASTERISK          &kp AMPERSAND          &kp PIPE   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
-&mt LCTRL PLUS  &none   &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none              &none
-&mt LALT EQUAL  &kp N1  &kp N2  &kp N3                &kp N4                 &kp N5     &none          &kp PERCENT     &kp CARET       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RALT
-                                &trans                &trans                 &trans     &trans         &trans          &trans
+&kp CAPS  &trans  &trans     &kp ASTERISK          &kp AMPERSAND          &kp PIPE   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &trans           &kp MINUS         &kp EQUAL
+&trans    &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans    &trans  &kp CARET  &trans                &trans                 &kp GRAVE  &trans         &kp PERCENT     &kp CARET       &trans           &kp LEFT_BRACE    &kp RIGHT_BRACE
+                             &trans                &trans                 &trans     &trans         &trans          &trans
             >;
         };
 
